@@ -1,0 +1,21 @@
+{
+  "name": "lrn2js",
+  "version": "0.0.0",
+  "description": "Sample app to learn JS frameworks",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "node.js",
+    "oon",
+    "heroku"
+  ],
+  "author": "shettka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.2.0",
+    "logfmt": "^1.1.2"
+  }
+}
