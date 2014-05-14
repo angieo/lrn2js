@@ -4,9 +4,13 @@ var app = express();
 
 app.use(logfmt.requestLogger());
 
-app.get('/', function(req, res) {
+fs.readFile('./index.html', function(err, data) {
+    res.end(data);
+  });
+
+/*app.get('/', function(req, res) {
   res.send('I LOVE YOU SHRI');
-});
+});*/
 
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
