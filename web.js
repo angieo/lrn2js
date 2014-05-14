@@ -1,6 +1,9 @@
 var express = require("express");
 var logfmt = require("logfmt");
 var app = express();
+var http = require('http'),
+    url = require('url'),
+    fs = require('fs');
 
 app.use(logfmt.requestLogger());
 
