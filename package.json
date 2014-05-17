@@ -13,10 +13,9 @@
     "heroku"
   ],
   "author": "shettka",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.2.0",
-    "logfmt": "^1.1.2",
-    "socket.io" : ">= 0.8.7"
+    "logfmt": "^1.1.2"
   }
 }
